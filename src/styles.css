@@ -1,0 +1,66 @@
+/* Add application styles & imports to this file! */
+@import "~@ionic/angular/css/ionic.bundle.css";
+
+.titulo{
+  text-align: center;
+  font-weight: bold;
+}
+
+:root {
+  --ion-font-family: "Varela Round", sans-serif;
+
+  /* Barra Superior */
+  --ion-toolbar-background: #db0909;
+  --ion-toolbar-color: #000000;
+
+
+  /* Bara inferior */
+  --ion-tab-bar-background: #db0909;
+  --ion-tab-bar-color: #1c1c1d;
+  --ion-tab-bar-color-selected: #000000;
+
+  --ion-text-weight: bold;
+
+  --ion-card-background: linear-gradient(180deg, #db0909 0%, transparent 100%);
+  --ion-item-background: transparent;
+
+  }
+
+.conteudo{
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.img-item{
+  padding: 20px;
+  padding-bottom: 0px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20%;
+
+}
+
+ion-thumbnail{
+  animation: sobeDesce 1s infinite alternate
+}
+
+ion-card{
+  border-radius: 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition-duration: 400ms;
+}
+
+ion-card:hover{
+  transform: scale(1.03);
+}
+
+@keyframes sobeDesce {
+  0%{
+    transform: translate(0px, 5px);    
+  }
+  100%{
+    transform: translate(0px, -5px);
+  }
+}

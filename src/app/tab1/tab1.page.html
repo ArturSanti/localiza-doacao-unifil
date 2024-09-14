@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo"> Home </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <div class="conteudo animate__animated animate__fadeIn">
+    <img 
+    class="img-item"
+    src="https://conteudo.solutudo.com.br/wp-content/uploads/2019/07/caridade.jpg"
+    alt="Doações"
+    />
+
+    <p>
+      Depois das tragédias que se passaram no país, muitas pessoas precisam da sua ajuda! Conte conosco para poder realizar doações!
+    </p>
+
+    <ion-card [routerLink] ="['/tabs/tab2']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="https://cdn-icons-png.flaticon.com/512/2642/2642502.png"/>
+        </ion-thumbnail>
+        <ion-label>
+          Onde Doar
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+
+    <ion-card [routerLink] ="['/tabs/tab3']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Heart-hand-shake.svg/4274px-Heart-hand-shake.svg.png"/>
+        </ion-thumbnail>
+        <ion-label>
+          Preciso de Doações
+        </ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+
+</ion-content>
