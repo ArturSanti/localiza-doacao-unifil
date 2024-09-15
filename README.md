@@ -1,6 +1,3 @@
-title: "Localiza Doação" draft: false language: pt-br featured\_image: images/featured/featured-img-placeholder.png summary: Sumário de seu projeto author: Unifil categories: Blog tags: \["CC", "ES", "ADS", "IA", "Educação", "Tecnologia", "Ciência", "Saúde", "Cultura", "Entretenimento"\] 
-
----
 
 
 
