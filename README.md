@@ -1,13 +1,10 @@
-title: "Nome do projeto" draft: false language: pt-br featured\_image: images/featured/featured-img-placeholder.png summary: Sumário de seu projeto author: Unifil categories: Blog tags: \["CC", "ES", "ADS", "IA", "Educação", "Tecnologia", "Ciência", "Saúde", "Cultura", "Entretenimento"\] linkandroid: link  de download do aplicativo em android linkios: link de download aplicativo em ios linkweb: link de acesso de aplicativo web linkblog: Link do blog linkvideo: Link do video
+title: "Localiza Doação" draft: false language: pt-br featured\_image: images/featured/featured-img-placeholder.png summary: Sumário de seu projeto author: Unifil categories: Blog tags: \["CC", "ES", "ADS", "IA", "Educação", "Tecnologia", "Ciência", "Saúde", "Cultura", "Entretenimento"\] linkandroid: link  de download do aplicativo em android linkios: link de download aplicativo em ios linkweb: link de acesso de aplicativo web linkblog: Link do blog linkvideo: Link do video
 
 ---
 
-**Advertisement :smile:**
 
 - [**pica**](https://nodeca.github.io/pica/demo/) \- high quality and fast image resize in browser.  
 - [**babelfish**](https://github.com/nodeca/babelfish/) \- developer friendly i18n with plurals support and easy syntax.
-
-You will like those projects\!
 
 ---
 
